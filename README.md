@@ -2,6 +2,15 @@
 
 Reproducible English translation and Variable-Width Font (VWF) graphics localization pipeline for **Boom Zoo** (*Boom Zoo (Taiwan).bin*, Super A'Can / Funtech 1996, M68000).
 
+## Screenshots
+
+<p>
+<img src="screenshots/1.png" width="400" alt="Title menu: 1P Game, VS Mode, Password">
+<img src="screenshots/2.png" width="400" alt="Select Fighter screen">
+<img src="screenshots/3.png" width="400" alt="Stage gameplay with HUD">
+<img src="screenshots/4.png" width="400" alt="Stage gameplay, score 500">
+</p>
+
 ## How to Play
 
 | Patch | Apply to | Result |
