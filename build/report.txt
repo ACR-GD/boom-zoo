@@ -1,0 +1,35 @@
+Boom Zoo (Taiwan) -> English Translation Build Report
+=====================================================
+Source ROM : Boom Zoo (Taiwan).bin (524288 bytes, sha1=0b5fbe2117bb77a827453c5489b3af691e5c7ade)
+Built ROM  : Boom Zoo (EN).bin (1048576 bytes, sha1=80259a3e15ba8e9294cc14baae235fc4b302f275)
+IPS Patch  : Boom Zoo (EN).ips (525359 bytes, sha1=44a1310b3998a8838afb4647ff27e24398bae34d)
+IPS Check  : PASS (apply_ips(orig, ips) == built ROM byte-for-byte)
+Expansion  : 14 blocks allocated in 0x080000..0x100000
+Fixed/Ptrs : 123 verified non-overlapping patches
+
+Per-Target Summary:
+  - title_sprites       : nt=527 | tiles=50/ 56 free | map@0x080000 (1035->2072B) | gfx@0x080818 (7319->15047B)
+  - char_select_1p      : nt= 64 | tiles=23/ 24 free | map@0x0842E0 (277->1924B) | gfx@0x084A64 (757->1772B)
+  - hud_sprites         : nt=247 | tiles=129/140 free | map@0x085150 (669->922B) | gfx@0x0854EA (2873->6324B)
+  - continue_sprites    : nt= 48 | tiles=17/ 22 free | map@0x086D9E (147->214B) | gfx@0x086E74 (703->1437B)
+  - vs_setup_bg         : nt=125 | tiles=80/ 90 free | map@0x087412 (337->871B) | gfx@0x08777A (1447->3340B)
+  - vs_stage_select_spr : nt=127 | tiles=32/ 35 free | map@0x088486 (261->350B) | gfx@0x0885E4 (1630->3308B)
+  - vs_results_bg       : nt= 65 | tiles=26/ 27 free | map@0x0892D0 (182->1924B) | gfx@0x089A54 (814->1691B)
+
+Total Expansion Bytes Used: 41196 / 524288 bytes
+
+Expanded ROM Allocations:
+  0x080000..0x080818 ( 2072 B)  title_spr_map
+  0x080818..0x0842DF (15047 B)  title_spr_gfx
+  0x0842E0..0x084A64 ( 1924 B)  charsel_bg_map
+  0x084A64..0x085150 ( 1772 B)  charsel_bg_gfx
+  0x085150..0x0854EA (  922 B)  hud_spr_map
+  0x0854EA..0x086D9E ( 6324 B)  hud_spr_gfx
+  0x086D9E..0x086E74 (  214 B)  cont_spr_map
+  0x086E74..0x087411 ( 1437 B)  cont_spr_gfx
+  0x087412..0x087779 (  871 B)  vssetup_bg_map
+  0x08777A..0x088486 ( 3340 B)  vssetup_bg_gfx
+  0x088486..0x0885E4 (  350 B)  vsstg_spr_map
+  0x0885E4..0x0892D0 ( 3308 B)  vsstg_spr_gfx
+  0x0892D0..0x089A54 ( 1924 B)  vsres_bg_map
+  0x089A54..0x08A0EF ( 1691 B)  vsres_bg_gfx

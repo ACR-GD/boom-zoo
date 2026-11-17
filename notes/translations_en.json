@@ -1,0 +1,31 @@
+{
+  "title": {
+    "subtitle_words": ["BOOM", "ZOO"],
+    "menu": ["1P GAME", "VS MODE", "PASSWORD"]
+  },
+  "char_select_1p": {
+    "header": "SELECT FIGHTER"
+  },
+  "hud": {
+    "join_in": "JOIN IN!",
+    "push_start": "PUSH START",
+    "paused": "PAUSED",
+    "hurry_up": "HURRY UP"
+  },
+  "continue": {
+    "prompt": "CONTINUE?",
+    "no": "NO",
+    "yes": "YES"
+  },
+  "vs_setup": {
+    "players": "PLAYERS",
+    "characters": "CHARACTERS",
+    "rounds": "ROUNDS"
+  },
+  "vs_stage_select": {
+    "header": "SELECT STAGE"
+  },
+  "vs_results": {
+    "header": "RESULTS"
+  }
+}
